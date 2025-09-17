@@ -1,0 +1,119 @@
+<!-- File: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Farmer's Market Restaurant - Fresh, local, and delicious food." />
+  <meta name="keywords" content="Farmers Market, Restaurant, Fresh Food, Local, Organic" />
+  <meta name="author" content="Farmer's Market Restaurant" />
+  <title>Farmer's Market Restaurant | Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <!-- FontAwesome for social icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">Farmer's Market</a>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li class="dropdown">
+            <a href="about.html" class="nav-link dropdown-toggle">About</a>
+            <ul class="dropdown-menu">
+              <li><a href="about.html#our-story" class="dropdown-link">Our Story</a></li>
+              <li><a href="about.html#team" class="dropdown-link">Team</a></li>
+            </ul>
+          </li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="blog.html" class="nav-link">Blog</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-container">
+      <h1 class="hero-title">Fresh from Farm to Table</h1>
+      <p class="hero-subtext">Experience the best local and organic food at Farmer's Market Restaurant.</p>
+      <a href="services.html" class="btn btn-primary">Explore Our Menu</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <div class="cards">
+        <!-- Service Card 1 -->
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80" alt="Fresh Organic Vegetables" class="card-img" />
+          <h3 class="card-title">Fresh Organic Produce</h3>
+          <p class="card-text">Locally sourced fruits and vegetables, harvested daily for maximum freshness.</p>
+        </article>
+        <!-- Service Card 2 -->
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1543352634-1b7a1a7a7a7a?auto=format&fit=crop&w=600&q=80" alt="Farm to Table Meals" class="card-img" />
+          <h3 class="card-title">Farm to Table Meals</h3>
+          <p class="card-text">Delicious meals prepared with fresh ingredients from local farms.</p>
+        </article>
+        <!-- Service Card 3 -->
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Catering Services" class="card-img" />
+          <h3 class="card-title">Catering Services</h3>
+          <p class="card-text">Custom catering for events with fresh, seasonal menus tailored to your needs.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2 class="section-title">What Our Customers Say</h2>
+      <div class="testimonial-cards">
+        <blockquote class="testimonial">
+          <p>"The freshest food I've ever tasted! The atmosphere is cozy and welcoming."</p>
+          <footer>- Sarah L.</footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"Amazing farm-to-table experience. Highly recommend their catering services."</p>
+          <footer>- James K.</footer>
+        </blockquote>
+        <blockquote class="testimonial">
+          <p>"A perfect place for healthy and delicious meals. Friendly staff and great prices."</p>
+          <footer>- Emily R.</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-container">
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="social-icons" aria-label="Social media links">
+        <a href="#" aria-label="Facebook" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+      </div>
+      <p class="footer-copy">&copy; 2024 Farmer's Market Restaurant. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
